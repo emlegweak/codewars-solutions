@@ -3,4 +3,4 @@ function disemvowel(str) {
         return str.replace(/[aeiouAEIOU]/g, "")
     }
 }
-//sorry not sorry leon, regex makes this so much simpler
+//sorry not sorry @leon, regex makes this so much simpler
