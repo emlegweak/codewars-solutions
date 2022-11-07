@@ -16,6 +16,7 @@
 
 function findDeletedNumber(arr, mixArr) {
   if(arr.length == 0 || mixArr.length == 0) return 0
+  if(arr.length == 1) return 1
   
   let sum1 = arr.reduce((a,b) => a+b)
   let sum2 = mixArr.reduce((a,b) => a+b)
